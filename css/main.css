@@ -1,0 +1,61 @@
+
+/* top title bar */
+.navbar-header {
+  width: 100%;
+}
+
+.title-bar {
+  height: 120px;
+  background-color: #E6E6E6;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.title-logo {
+  margin-top: 15px;
+  float: left;
+}
+
+.profile-image{
+  float: right;
+  margin-right: 0;
+}
+
+.title-avatar{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-top: 50%;
+}
+
+
+/* pages bar */
+
+.navbar-other{
+  /*padding-top: 50px;*/
+}
+
+.pages-bar {
+  min-height: 0;
+  height: 40px;
+  background-color: #F1F1F1;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.hamburger {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 18px;
+  width: 18px;
+  float: left;
+}
+
+.navbar-text {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 9px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
