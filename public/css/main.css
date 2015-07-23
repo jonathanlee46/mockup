@@ -100,7 +100,7 @@
 }
 
 .filter-icon {
-  font-size: 4px;
+  font-size: 10px;
   margin-left: 1px;
 }
 
@@ -147,7 +147,7 @@
 
 .info-container {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
   margin: 0;
   display: inline-block;
@@ -204,7 +204,7 @@
 
 .line {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   margin: 0;
   display: inline-block;
   vertical-align: top;
@@ -240,7 +240,7 @@
 }
 
 .footer-left {
-  font-size: 8px;
+  font-size: 13px;
   margin-left: 5px;
   margin-right: 20px;
   margin-top: 16px;
