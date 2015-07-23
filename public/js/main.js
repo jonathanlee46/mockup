@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   jobClicker();
+  footClicker();
 
 });
 
@@ -22,5 +23,31 @@ var jobClicker = function(){
 
     $('#inside' + panelNumber ).toggleClass("glyphicon-triangle-right glyphicon-triangle-bottom")
 
+  });
+}
+
+
+var footClicker = function(){
+
+  $('#expand-all').click(function(event){
+    event.preventDefault();
+    console.log("expand!");
+
+    $('.panel-collapse').collapse('show');
+
+    for (var i=1; i<=4; i++){
+      $('#inside' + i.toString()).removeClass("glyphicon-triangle-right").addClass("glyphicon-triangle-bottom")
+    }
+  });
+
+  $('#collapse-all').click(function(event){
+    event.preventDefault();
+
+    $('.panel-collapse').collapse('hide');
+
+    for (var i=1; i<=4; i++){
+      $('#inside' + i.toString()).removeClass("glyphicon-triangle-bottom").addClass("glyphicon-triangle-right")
+    }
   })
+
 }
