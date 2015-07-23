@@ -7,6 +7,7 @@
 /* top title bar */
 .navbar-header {
   width: 100%;
+  min-width: 1170px;
 }
 
 .title-bar {
@@ -14,6 +15,7 @@
   background-color: #E6E6E6;
   border-radius: 0;
   margin-bottom: 0;
+  min-width: 1170px;
 }
 
 .title-logo {
@@ -30,6 +32,7 @@
   height: 60px;
   width: 60px;
   margin-top: 28px;
+  margin-right: 20px;
   border-radius: 100% !important;
 }
 
@@ -80,7 +83,7 @@
 
 .filters-bar {
   min-height: 0;
-  min-width: 1160px;
+  min-width: 1170px;
   height: 40px;
   background-color: #6F6F6F;
   border-radius: 0;
@@ -102,7 +105,7 @@
   height: 60px;
   padding-top: 18px;
   padding-left: 20px;
-
+  min-width: 1170px;
   background-color: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -181,7 +184,8 @@
 }
 
 /* job slide-out panel info */
-.panel-body {
+
+.panel-default {
   min-width: 1170px;
 }
 
