@@ -170,6 +170,13 @@
   margin-bottom: 2px;
 }
 
+.indicator {
+  display: inline-block;
+  float: right;
+  padding-top: 31px;
+}
+
+
 /* job slide-out panel info */
 .line {
   font-family: 'Open Sans', sans-serif;
