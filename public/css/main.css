@@ -91,6 +91,7 @@
   color: #FFF;
 }
 
+
 .navbar-left40 {
   margin-left: 40px;
 }
@@ -244,4 +245,88 @@
   margin-left: 5px;
   margin-right: 20px;
   margin-top: 16px;
+}
+
+
+@media screen and (max-width:1169px) {
+  .title-bar {
+    min-width: 870px;
+  }
+
+  .title-avatar{
+  margin-top: 28px;
+  margin-right: 30px;
+}
+
+  .navbar-header {
+    min-width: 870px;
+  }
+
+  .navbar-left40 {
+    margin-left: 0;
+  }
+
+  .pages-bar {
+    min-width: 870px;
+  }
+
+  .filters-bar {
+    min-width: 870px;
+  }
+
+  .filter-text {
+    margin-left: 14px;
+  }
+  .filter-icon {
+    display: none;
+  }
+
+  .job-type {
+    min-width: 870px;
+  }
+
+  .job-panel {
+    min-width: 870px;
+  }
+
+  .panel-default {
+    min-width: 870px;
+  }
+  
+  #job-number {
+    width: 90px;
+  }
+
+  #client {
+    width: 60px;
+  }
+
+  #reference {
+    width: 150px;
+  }
+
+  #address {
+    width: 160px;
+  }
+
+  #date {
+    width: 160px;
+  }
+
+  #status {
+    width: 180px;
+  }
+
+  .footer {
+    min-width: 870px;
+  }
+
+  .date {
+    width: 110px;
+  }
+
+  .action {
+    width: 520px;
+  }
+
 }
