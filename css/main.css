@@ -13,7 +13,7 @@
 
 .title-logo {
   margin-top: 15px;
-  float: left;
+  /*float: left;*/
 }
 
 .profile-image{
@@ -25,15 +25,11 @@
   height: 60px;
   width: 60px;
   border-radius: 100%;
-  margin-top: 50%;
+  margin-top: 28px;
 }
 
 
 /* pages bar */
-
-.navbar-other{
-  /*padding-top: 50px;*/
-}
 
 .pages-bar {
   min-height: 0;
@@ -44,18 +40,50 @@
 }
 
 .hamburger {
-  margin-top: 10px;
+  margin-top: 11px;
   margin-left: 5px;
-  height: 18px;
-  width: 18px;
+  height: 15px;
+  width: 15px;
   float: left;
 }
+
 
 .navbar-text {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 9px;
-  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 9px;
   margin-left: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-bold {
+  /*font-size: 14px;*/
+  font-weight: 700;
+}
+
+.navbar-link {
+  color: #404040;
+}
+
+
+/* filters bar */
+
+.filters-bar {
+  min-height: 0;
+  height: 40px;
+  background-color: #6F6F6F;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+.navbar-left40 {
+  margin-left: 40px;
+}
+
+.filterbar-link {
+  color: #FFF;
 }
