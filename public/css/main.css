@@ -38,6 +38,7 @@
 
 .pages-bar {
   min-height: 0;
+  min-width: 1160px;
   height: 40px;
   background-color: #F1F1F1;
   border-radius: 0;
@@ -79,6 +80,7 @@
 
 .filters-bar {
   min-height: 0;
+  min-width: 1160px;
   height: 40px;
   background-color: #6F6F6F;
   border-radius: 0;
@@ -120,6 +122,7 @@
 .job-panel {
   padding-left: 20px;
   cursor: pointer;
+  min-width: 1160px;
 }
 
 .accordion-toggle {
