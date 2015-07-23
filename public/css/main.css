@@ -99,6 +99,10 @@
   color: #FFF;
 }
 
+.filter-icon {
+  font-size: 4px;
+  margin-left: 1px;
+}
 
 /* job panels */
 .job-type {
