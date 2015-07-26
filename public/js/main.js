@@ -3,6 +3,7 @@ $(document).ready(function() {
   jobClicker();
   footClicker();
   royaleWithCheese();
+  headShot();
 
 });
 
@@ -61,5 +62,33 @@ var royaleWithCheese = function(){
         width: 300, //You can ignore this option, the sidebar will automatically size itself to 300px.
         closingLinks: '.close-sidebar' // If you ignore this option, the plugin will look for all links and this can be buggy. Choose a class for every object inside the sidebar that once clicked will close the sidebar.
     }
+  });
+}
+
+var closer = function(){
+      $(".profile-image").click(function(){
+        $(".submenu").hide();
+      });
+    }
+
+
+var headShot = function(){
+  $(".profile-image").click(function(){
+
+    $(".submenu").slideToggle ("fast");
+
+    
+    $(".submenu").mouseup(function(){
+      return false
+    });
+
+    $(".account").mouseup(function(){
+      return false
+    });
+
+    $(document).mouseup(function(){
+      $(".submenu").hide();
+    })
+
   });
 }

@@ -27,7 +27,7 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
+   
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
@@ -46,13 +46,34 @@
         <div class="navbar-header">
 
           <a class="navbar-brand" href="#">
-           <!--  <img class="title-logo" alt="Brand" src="http://i.imgur.com/eKyvhan.png"> -->
+      
            <img class="title-logo" alt="Brand" src="../images/brand.png">
           </a>
 
-          <a class="profile-image" href="#">
-            <img class="title-avatar" alt="Avatar" src="../images/avatar.jpg">
-          </a>
+          <div class="profile-dropdown" id="dropdown">
+            <a class="profile-image" href="#">
+              <img class="title-avatar" alt="Avatar" src="../images/avatar.jpg">
+            </a>
+
+            <!-- profile menu -->
+
+            <div class="submenu" style="display: none; ">
+
+              <ul class="root">
+
+                <li><a href="#"> Settings </a></li>
+                <li><a href="#"> Templates </a></li>
+                <li><a href="#"> Security </a></li>
+                <li><a href="#"> Your License </a></li>
+                <li><a href="#"> My Pay </a></li>
+
+
+              </ul>
+
+            </div>
+
+
+          </div>
         </div>
       </div>
     </nav>
@@ -156,6 +177,8 @@
           
         </div>
       </div>
+
+
 
 
     <!-- filters bar -->
