@@ -491,9 +491,6 @@ a.account {
     margin-right: 0px;
   }
 
-  .navbar-header {
-    min-width: 300px;
-  }
 
   #current {
     width: 200px;
@@ -507,18 +504,27 @@ a.account {
     margin-right: 20px;
   }
 
+  .navbar-header {
+    min-width: 300px;
+    /*height: 500px;*/
+  }
+
   .navbar-left40 {
     margin-left: 20px;
   }
 
-  .profile-image {
-    height: 60px;
-    width: 60px;
+  .navbar-text {
+    display: inline-block;
   }
 
   .navbar-left {
     display: none;
   }
+  .profile-image {
+    height: 60px;
+    width: 60px;
+  }
+
 
   .pages-bar {
     min-width: 300px;
@@ -526,6 +532,8 @@ a.account {
 
   .filters-bar {
     min-width: 300px;
+    padding-bottom: 9px;
+    height: auto;
   }
 
 
