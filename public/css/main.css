@@ -36,6 +36,63 @@
   border-radius: 100% !important;
 }
 
+/* slide-in menu */
+
+.sidebar-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+
+  background-color: #FFF;
+}
+
+.sidebar-logo-holder {
+  height: 160px;
+  background-color: #E6E6E6;
+}
+
+.sidebar-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#brand-logo {
+  padding-top: 20px;
+}
+
+#head-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 100% !important;
+  margin-top: 10px;
+}
+
+.sidebar-link-holder {
+  margin-top: 20px;
+}
+
+.sidebar-link-title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.sidebar-link {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.second-indent {
+  margin-left: 40px;
+}
 
 /* pages bar */
 

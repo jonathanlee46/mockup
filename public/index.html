@@ -27,9 +27,11 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.simpler-sidebar.min.js"></script>
 
   </head>
 
@@ -61,7 +63,7 @@
         <div class="navbar-header">
 
           <a class="navbar-burger" href="#">
-            <img class="hamburger" alt="Brand" src="../images/burger.png">
+            <img id="toggle-sidebar" class="hamburger" alt="Brand" src="../images/burger.png">
           </a>
 
           <p class="navbar-text navbar-bold">Current Jobs</p>
@@ -83,6 +85,78 @@
         </div>
       </div>
     </nav>
+
+    <!-- slide in menu -->
+
+
+      <div id="sidebar">
+      <!--
+        Simpler-Sidebar will handle #sidebar's position.
+
+        To let the content of your sidebar overflow, especially when you have a lot of content in it, you have to add a "wrapper" that wraps all content.
+      -->
+        <div id="sidebar-wrapper" class="sidebar-wrapper">
+          <!--
+            Links below are just an example. Give each clickable element, for example links, a class to trigger the closing animation.
+          -->
+          <div class="sidebar-logo-holder">
+            <!-- <img id="sidebar-logo" alt="Brand" src="../images/brand.png"> -->
+            <img class="sidebar-logo" id="brand-logo" alt="Brand" src="C:\DBC\mockup\public\images\brand.png">
+
+            <!-- <img class="sidebar-logo" id="head-logo" alt="Avatar" src="../images/avatar.jpg"> -->
+            <img class="sidebar-logo" id="head-logo" alt="Avatar" src="C:\DBC\mockup\public\images\avatar.jpg">
+          </div>
+
+          <div class="sidebar-link-holder">
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Current Jobs </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">My Current jobs </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Work In Progress </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Calendar </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Review and Approve </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">To be Paid </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Reports </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Internal KPIS </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Today </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Aged Debtors </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Custom Reports </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Accounts Links </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Timesheet </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Offices </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Companies </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Offices </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Coverage Areas </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Localities </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">News </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Clients </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Clients </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Lixi Partners </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Communications </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">E-mail Center </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Inbox </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Sent Items </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Email blacklist </a></p>
+
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Fax Center </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Inbox </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Outbox </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Sent Items </a></p>
+                <p class="sidebar-link second-indent"> <a href="#" class="navbar-link">Errors </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Sales </a></p>
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Properties </a></p>
+
+            <p class="sidebar-link-title"> <a href="#" class="navbar-link">Valuers </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Valuers </a></p>
+              <p class="sidebar-link"> <a href="#" class="navbar-link">Valuepro Partners </a></p>
+
+          </div>
+          
+        </div>
+      </div>
 
 
     <!-- filters bar -->
