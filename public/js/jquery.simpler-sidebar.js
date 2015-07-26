@@ -22,11 +22,11 @@
                 animationReset = {},
 
                 hiddenFlow = function() {
-                    // $('body, html').css('overflow', 'hidden');
+                    $('body, html').css('overflow', 'hidden');
                     // console.log("open")
                 },
                 autoFlow = function() {
-                    // $('body, html').css('overflow', 'auto');
+                    $('body, html').css('overflow', 'hidden');
                     // console.log("close")
                 },
 
@@ -38,7 +38,7 @@
                 deactivate = {
                     duration: duration,
                     easing: cfg.animation.easing,
-                    complete: autoFlow
+                    complete: hiddenFlow
                 },
 
                 animateOpen = function() {
@@ -160,7 +160,7 @@
 
                 $('body, html')
                     .css({
-                        overflow: 'auto'
+                        // overflow: 'hidden'
                     });
             });
 

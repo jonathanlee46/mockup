@@ -4,7 +4,9 @@
 }
 
 
-
+#wrap {
+  overflow: auto;
+}
 
 /* top title bar */
 .navbar-header {
