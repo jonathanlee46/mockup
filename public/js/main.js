@@ -4,15 +4,9 @@ $(document).ready(function() {
   footClicker();
   royaleWithCheese();
   headShot();
-  // closer();
 
 });
 
-// var closer = function(){
-//   $(".title-bar").mouseup(function(){
-//       $(".submenu").hide();
-//   })
-// }
 
 var jobClicker = function(){
   // console.log("ERMAGERD JERBS HAPPERNED")
