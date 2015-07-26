@@ -3,7 +3,6 @@
   border-radius: 0 !important;
 }
 
-
 #wrap {
   overflow: auto;
 }
@@ -473,7 +472,7 @@ a.account {
 
 }
 
-@media screen and (min-width:300px) and (max-width: 720px) {
+@media screen and (min-width:0px) and (max-width: 720px) {
   .title-bar {
     min-width: 300px;
   }
@@ -546,25 +545,9 @@ a.account {
     height: auto;
   }
 
-  #job-number {
-    width: 40%;
+  .info-container {
+    display: block;
   }
-  #client {
-    width: 40%;
-  }
-  #reference {
-    width: 100%;
-  }
-  #address {
-    width: 100%;
-  }
-  #date {
-    width: 100%;
-  }
-  #status {
-    width: 100%;
-  }
-
 
   .panel-default {
     min-width: 300px;
@@ -586,4 +569,18 @@ a.account {
     margin-right: 0px;
   }
 
+  .indicator {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    float: none;
+  }
+
+  .line {
+    display: block;
+  }
+
+  .date {
+    font-weight: 700;
+  }
 }
