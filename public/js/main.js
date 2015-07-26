@@ -7,6 +7,7 @@ $(document).ready(function() {
 
 });
 
+
 var jobClicker = function(){
   // console.log("ERMAGERD JERBS HAPPERNED")
 
