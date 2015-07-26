@@ -21,24 +21,14 @@
                 animationStart = {},
                 animationReset = {},
 
-                hiddenFlow = function() {
-                    $('body, html').css('overflow', 'hidden');
-                    // console.log("open")
-                },
-                autoFlow = function() {
-                    $('body, html').css('overflow', 'hidden');
-                    // console.log("close")
-                },
 
                 activate = {
                     duration: duration,
                     easing: cfg.animation.easing,
-                    complete: hiddenFlow
                 },
                 deactivate = {
                     duration: duration,
                     easing: cfg.animation.easing,
-                    complete: hiddenFlow
                 },
 
                 animateOpen = function() {
