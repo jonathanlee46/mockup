@@ -472,3 +472,70 @@ a.account {
   }
 
 }
+
+@media screen and (max-width:640px) {
+  .title-bar {
+    min-width: 300px;
+  }
+
+  .navbar-header {
+    min-width: 300px;
+  }
+
+  #current {
+    width: 200px;
+    left: 10px;
+    margin-left: 30px;
+  }
+
+  .burger-wrapper {
+    width: 50px;
+    margin-left: 12px;
+    margin-right: 20px;
+  }
+
+  .navbar-left40 {
+    margin-left: 20px;
+  }
+
+  .profile-image {
+    height: 60px;
+    width: 60px;
+  }
+
+  .title-avatar {
+    margin-right: 0px;
+  }
+
+  .navbar-left {
+    display: none;
+  }
+
+  .pages-bar {
+    min-width: 300px;
+  }
+
+  .filters-bar {
+    min-width: 300px;
+  }
+
+
+  .job-type {
+    min-width: 300px;
+  }
+
+  .job-panel {
+    min-width: 300px;
+  }
+
+
+  .panel-default {
+    min-width: 300px;
+  }
+
+
+  .footer {
+    min-width: 300px;
+  }
+
+}

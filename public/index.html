@@ -51,9 +51,10 @@
           </a>
 
           <div class="profile-dropdown" id="dropdown">
-            <a class="profile-image" href="#">
+            <div class="profile-image">
               <img class="title-avatar" alt="Avatar" src="../images/avatar.jpg">
-            </a>
+            </div>
+            <!-- </a> -->
 
             <!-- profile menu -->
 
@@ -83,11 +84,14 @@
       <div class="container-fluid">
         <div class="navbar-header">
 
-          <a class="navbar-burger" href="#">
-            <img id="toggle-sidebar" class="hamburger" alt="Brand" src="../images/burger.png">
-          </a>
+          <div class="burger-wrapper">
+            <a class="navbar-burger" href="#">
+              <!-- <img id="toggle-sidebar" class="hamburger" alt="Brand" src="../images/burger.png"> -->
+              <img id="toggle-sidebar" class="hamburger" alt="Brand" src="C:\DBC\mockup\public\images\burger.png">
+            </a>
+          </div>
 
-          <p class="navbar-text navbar-bold">Current Jobs</p>
+          <p class="navbar-text navbar-bold" id="current">Current Jobs</p>
 
           <p class="navbar-text navbar-left"><a href="#" class="navbar-link">Reports</a></p>
 

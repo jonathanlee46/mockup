@@ -4,9 +4,15 @@ $(document).ready(function() {
   footClicker();
   royaleWithCheese();
   headShot();
+  // closer();
 
 });
 
+// var closer = function(){
+//   $(".title-bar").mouseup(function(){
+//       $(".submenu").hide();
+//   })
+// }
 
 var jobClicker = function(){
   // console.log("ERMAGERD JERBS HAPPERNED")
@@ -36,6 +42,8 @@ var footClicker = function(){
     event.preventDefault();
     console.log("expand!");
 
+
+
     $('.panel-collapse').collapse('show');
 
     for (var i=1; i<=4; i++){
@@ -45,6 +53,7 @@ var footClicker = function(){
 
   $('#collapse-all').click(function(event){
     event.preventDefault();
+
 
     $('.panel-collapse').collapse('hide');
 
@@ -66,15 +75,10 @@ var royaleWithCheese = function(){
   });
 }
 
-var closer = function(){
-      $(".profile-image").click(function(){
-        $(".submenu").hide();
-      });
-    }
 
 
 var headShot = function(){
-  $(".profile-image").click(function(){
+  $(".title-avatar").click(function(){
 
     $(".submenu").slideToggle ("fast");
 
@@ -90,6 +94,6 @@ var headShot = function(){
     $(document).mouseup(function(){
       $(".submenu").hide();
     })
-
+    
   });
 }
